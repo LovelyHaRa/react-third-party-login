@@ -1,7 +1,7 @@
 import React from "react";
 import { Meta } from "@storybook/react/types-6-0";
 
-import GoogleLoginButton from "../google";
+import GoogleLoginButton from "../components/google";
 
 export default { title: "Google Login" } as Meta;
 
