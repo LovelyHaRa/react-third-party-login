@@ -1,8 +1,11 @@
 import React from "react";
-import { Meta } from "@storybook/react/types-6-0";
+import { ArgTypes, Meta } from "@storybook/react/types-6-0";
 
 import NaverLoginButton from "../components/naver";
 
-export default { title: "Naver Login" } as Meta;
+export default {
+  title: "Naver Login",
+  component: NaverLoginButton,
+} as Meta;
 
-export const Button = () => <NaverLoginButton />;
+export const Button = (args: ArgTypes) => <NaverLoginButton {...args} />;

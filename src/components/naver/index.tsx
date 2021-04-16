@@ -1,1 +1,1 @@
-export { default } from "./NaverLoginButton";
+export { default } from "./NaverLoginButtonContainer";
