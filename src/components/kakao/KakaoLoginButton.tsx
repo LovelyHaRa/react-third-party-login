@@ -6,11 +6,15 @@ import "../../styles/Button.scss";
 
 type ComponentProps = {
   children?: React.ReactNode;
+  handleClick: () => void;
 };
 
-const KakaoLoginButton = ({ children }: ComponentProps) => {
+const KakaoLoginButton = ({ children, handleClick }: ComponentProps) => {
   return (
-    <button className="react-third-party-login-button__kakao">
+    <button
+      className="react-third-party-login-button__kakao"
+      onClick={handleClick}
+    >
       {children || <img src={KakaoLoginImage} alt="kakao login" />}
     </button>
   );

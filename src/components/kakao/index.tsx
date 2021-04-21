@@ -1,1 +1,1 @@
-export { default } from "./KakaoLoginButton";
+export { default } from "./KakaoLoginButtonContainer";
