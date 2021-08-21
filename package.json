@@ -1,6 +1,6 @@
 {
   "name": "react-third-party-login",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React 3rd party login component library",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

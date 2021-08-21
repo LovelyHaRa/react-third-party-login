@@ -44,6 +44,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
+          scope: '@LovelyHaRa'
       - run: yarn --frozen-lockfile
       - run: npm publish
         env:
