@@ -1,18 +1,21 @@
-import React from "react";
+import React from 'react';
 
-import KakaoLoginImage from "./images/kakao_login_btn.png";
-
-import "../../styles/Button.scss";
+import KakaoLoginImage from './images/kakao_login_btn.png';
 
 type ComponentProps = {
   children?: React.ReactNode;
+  className?: string;
   handleClick: () => void;
 };
 
-const KakaoLoginButton = ({ children, handleClick }: ComponentProps) => {
+const KakaoLoginButton = ({
+  children,
+  className,
+  handleClick,
+}: ComponentProps) => {
   return (
     <button
-      className="react-third-party-login-button__kakao"
+      className={className || 'react-third-party-login-button__kakao'}
       onClick={handleClick}
     >
       {children || <img src={KakaoLoginImage} alt="kakao login" />}

@@ -1,11 +1,11 @@
 {
   "name": "react-third-party-login",
-  "version": "0.1.0",
-  "description": "React based 3rd party login component library",
-  "main": "build/index.js",
-  "module": "build/index.esm.js",
+  "version": "1.0.0",
+  "description": "React 3rd party login component library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "files": [
-    "build"
+    "dist"
   ],
   "license": "MIT",
   "scripts": {

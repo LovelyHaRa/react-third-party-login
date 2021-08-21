@@ -1,0 +1,16 @@
+.react-third-party-login-button__naver {
+  border: none;
+  outline: none;
+  padding: 0;
+  display: block;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    display: flex;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,11 +1,15 @@
-import React from "react";
-import { ArgTypes, Meta } from "@storybook/react/types-6-0";
+import React from 'react';
+import { ArgTypes, Meta } from '@storybook/react/types-6-0';
 
-import NaverLoginButton from "../components/naver";
+import NaverLoginButton from '../components/naver';
+
+import '../styles/NaverLoginButton.scss';
 
 export default {
-  title: "Naver Login",
+  title: 'Component/Naver Login Button',
   component: NaverLoginButton,
 } as Meta;
 
-export const Button = (args: ArgTypes) => <NaverLoginButton {...args} />;
+export const Default = (args: ArgTypes) => (
+  <NaverLoginButton clientId={''} redirectUri={''} state={''} {...args} />
+);

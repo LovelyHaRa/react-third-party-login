@@ -3,6 +3,13 @@ import { ArgTypes, Meta } from '@storybook/react/types-6-0';
 
 import KakaoLoginButton from '../components/kakao';
 
-export default { title: 'Kakao Login', component: KakaoLoginButton } as Meta;
+import '../styles/KakaoLoginButton.scss';
 
-export const Button = (args: ArgTypes) => <KakaoLoginButton {...args} />;
+export default {
+  title: 'Component/Kakao Login Button',
+  component: KakaoLoginButton,
+} as Meta;
+
+export const Default = (args: ArgTypes) => (
+  <KakaoLoginButton clientId={''} redirectUri={''} {...args} />
+);
