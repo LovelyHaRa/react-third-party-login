@@ -1,4 +1,4 @@
-# React Thrid Party Login
+# React Third Party Login
 
 React Thrid Party Login Button Component
 
