@@ -6,6 +6,6 @@ const file = readFileSync('./package.json', {
 
 const json = JSON.parse(file);
 
-json.name = '@lovelyhara/react-third-party-login';
+json.name = '@stylelist94/react-third-party-login';
 
 writeFileSync('./package.json', JSON.stringify(json, undefined, 2));

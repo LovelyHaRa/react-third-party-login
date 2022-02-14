@@ -44,7 +44,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
-          scope: '@lovelyhara'
+          scope: '@stylelist94'
       - run: node publish-gpr.js
       - run: yarn --frozen-lockfile
       - run: npm publish
